@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\State">
+      <UniqueIdentifier>{41784bb6-64af-437b-a995-39ceecf9b624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\State">
+      <UniqueIdentifier>{3a97e4de-db4d-4fef-b795-447ad2e6ea7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{84929e39-3520-42ca-920f-1d327b376cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{6e502aef-58d1-4d08-b9b4-1881c61081de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Data">
+      <UniqueIdentifier>{824d8d08-3da8-4b8a-8935-f445f28f90f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Data">
+      <UniqueIdentifier>{a26d2a52-a31d-4b46-ad6a-8944690daeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\Draw">
+      <UniqueIdentifier>{b03a5c1c-883a-4546-8e27-5f75542371b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager\Draw">
+      <UniqueIdentifier>{59ad4124-398d-43a0-b666-6e827eb7e86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\State\Battle">
+      <UniqueIdentifier>{c1f30c41-6237-4249-9e82-00ba217c99a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\State\Battle">
+      <UniqueIdentifier>{a28e3939-744e-44b0-a92f-40c176480a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\Battle">
+      <UniqueIdentifier>{e3b4a2e1-bcbc-4fed-ae66-8189fe27ca95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager\Battle">
+      <UniqueIdentifier>{724f6af3-9db5-4999-bc30-8f8c2dbb2507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\State\Input">
+      <UniqueIdentifier>{2d51d0ec-e754-49e3-a416-f4c03a147cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\State\Input">
+      <UniqueIdentifier>{5f8360ab-5601-4149-a6eb-0de630fc287e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Data\Scene">
+      <UniqueIdentifier>{a01aaa9f-9635-408a-87ec-76b7bb6ba058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Data\Scene">
+      <UniqueIdentifier>{055728c7-d7ca-4ac7-9552-b58834cc03f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager\Scene">
+      <UniqueIdentifier>{5955549c-5808-4ecf-9e3f-eaf71e41c0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager\Scene">
+      <UniqueIdentifier>{6ecc8c8a-facf-4fd5-8b84-976ef7b7d464}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AllCardData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="CardData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AllMapData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MapData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AllBattleData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBattle.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleState.cpp">
+      <Filter>ソース ファイル\State\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMapState.cpp">
+      <Filter>ソース ファイル\State\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleManager.cpp">
+      <Filter>ソース ファイル\Manager\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleAllUnitState.cpp">
+      <Filter>ソース ファイル\State\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUnitState.cpp">
+      <Filter>ソース ファイル\State\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCardState.cpp">
+      <Filter>ソース ファイル\State\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleAreaState.cpp">
+      <Filter>ソース ファイル\State\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleDamageState.cpp">
+      <Filter>ソース ファイル\State\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDamage.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Algo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleEnemyManager.cpp">
+      <Filter>ソース ファイル\Manager\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBattleResult.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleResultState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="InputKeyState.cpp">
+      <Filter>ソース ファイル\State\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMouseState.cpp">
+      <Filter>ソース ファイル\State\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputState.cpp">
+      <Filter>ソース ファイル\State\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTitle.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawHome.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="StorySelectState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawStorySelect.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawStory.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckListState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDeckList.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckEditState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDeckEdit.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSelectState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBattleSelect.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeData.cpp">
+      <Filter>ソース ファイル\Data\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleData.cpp">
+      <Filter>ソース ファイル\Data\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckListData.cpp">
+      <Filter>ソース ファイル\Data\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="HaveCardData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckEditData.cpp">
+      <Filter>ソース ファイル\Data\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSelectData.cpp">
+      <Filter>ソース ファイル\Data\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StorySelectData.cpp">
+      <Filter>ソース ファイル\Data\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AllStoryEnemyData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryEnemyData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryData.cpp">
+      <Filter>ソース ファイル\Data\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AllStoryTextData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryTextData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleResultManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSelectManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckEditManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckListManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StorySelectManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleManager.cpp">
+      <Filter>ソース ファイル\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawSetting.cpp">
+      <Filter>ソース ファイル\Manager\Draw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SystemData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AllCardData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CardData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AllMapData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MapData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AllBattleData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBattle.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleState.h">
+      <Filter>ヘッダー ファイル\State\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMapState.h">
+      <Filter>ヘッダー ファイル\State\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleManager.h">
+      <Filter>ヘッダー ファイル\Manager\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleAllUnitState.h">
+      <Filter>ヘッダー ファイル\State\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUnitState.h">
+      <Filter>ヘッダー ファイル\State\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCardState.h">
+      <Filter>ヘッダー ファイル\State\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleAreaState.h">
+      <Filter>ヘッダー ファイル\State\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleDamageState.h">
+      <Filter>ヘッダー ファイル\State\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDamage.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Algo.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleEnemyManager.h">
+      <Filter>ヘッダー ファイル\Manager\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBattleResult.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleResultState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKeyState.h">
+      <Filter>ヘッダー ファイル\State\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMouseState.h">
+      <Filter>ヘッダー ファイル\State\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>ヘッダー ファイル\State\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawTitle.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawHome.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="StorySelectState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawStorySelect.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawStory.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckListState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDeckList.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckEditState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDeckEdit.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSelectState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBattleSelect.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeData.h">
+      <Filter>ヘッダー ファイル\Data\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleData.h">
+      <Filter>ヘッダー ファイル\Data\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckListData.h">
+      <Filter>ヘッダー ファイル\Data\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="HaveCardData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckEditData.h">
+      <Filter>ヘッダー ファイル\Data\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSelectData.h">
+      <Filter>ヘッダー ファイル\Data\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StorySelectData.h">
+      <Filter>ヘッダー ファイル\Data\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AllStoryEnemyData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryEnemyData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryData.h">
+      <Filter>ヘッダー ファイル\Data\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AllStoryTextData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryTextData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingState.h">
+      <Filter>ヘッダー ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleResultManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSelectManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckEditManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckListManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StorySelectManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleManager.h">
+      <Filter>ヘッダー ファイル\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawSetting.h">
+      <Filter>ヘッダー ファイル\Manager\Draw</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
